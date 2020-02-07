@@ -12,7 +12,7 @@ body {
   font-weight: normal;
   color: #ffffff;
   min-height: 100vh;
-  background-image: url(../img/background.jpg);
+  background-image: url('../img/background.jpg');
   background-repeat: no-repeat;
   background-position: top right 20%;
 }
@@ -232,7 +232,7 @@ background-position: center center;
   width: 32px;
   height: 23px;
   border: none;
-  background-image: url(/img/arrow.svg);
+  background-image: url('../img/arrow.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -333,6 +333,7 @@ background-position: center center;
   }
 
   .menu-button-active{
+	z-index: 2;
     height: 0;
   }
   .menu-button-active:before{
@@ -358,6 +359,7 @@ background-position: center center;
   }
   .header-active{
     display: flex;
+	z-index: 1;
   }
   .logo{
     margin-bottom: 25px;
